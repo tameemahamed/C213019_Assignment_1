@@ -1,0 +1,394 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(45deg, #333, #555);
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 5px;
+    padding: 5px 10px;
+    color: aqua;
+}
+p {
+    margin: 5px;
+    padding: 5px 10px;
+}
+section {
+    padding: 20px;
+    background-image: linear-gradient(135deg, #1d1a16, #ecb7d2);
+}
+name{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+.name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+par{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(211, 155, 81);
+    text-align: center;
+}
+price{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(34, 77, 77);
+    font-size: 40px;
+}
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 20px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    height: 70px;
+    width: 200px;
+    align-content: center;
+    border-radius: 35px;
+}
+
+.login-button {
+    background-image: linear-gradient(65deg,lime, green);
+}
+
+.cart-button {
+    background-image: linear-gradient(20deg,black,white);
+}
+.download-button{
+    background-image: linear-gradient(183deg,rgb(236, 206, 172),rgb(49, 30, 9));
+}
+.comment-button{
+    background-image: linear-gradient(93deg,rgb(49, 30, 9),rgb(238, 189, 133),rgb(49, 30, 9));
+}
+.image{
+    height: 20px;
+}
+.card-image{
+    height: 200px;
+    margin: 0 auto; 
+    display: block; 
+}
+.rating{
+    padding: 20px 20px;
+    width: 90px;
+    margin: 0 auto; 
+    display: block; 
+}
+.card-group {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 20px;
+    background-image: linear-gradient(180deg,rgb(221, 214, 214),white);
+}
+  
+.card {
+    background-color: #fff;
+    width: 200px; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    align-content: center;
+}
+.foot {
+    
+    margin: 0 auto;
+    background-image: linear-gradient(45deg,lime,rgb(24, 179, 24));
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+.form{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: 20px;
+    background-image: linear-gradient(180deg,rgb(221, 214, 214),white);
+    align-items: flex-start;
+}
+.dpimage{
+    height: 100px;
+    margin: 0 auto; 
+    display: block; 
+    justify-content: center;
+}
+.circle {
+    width: 110px;
+    height: 120px;
+    background-color: rgb(134, 61, 61); 
+    border-radius: 50%;
+  }
+input{
+    width: 270px;
+    height: 25px;
+}
+a{
+    color: brown;
+}
+
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px;
+    text-align: center;
+}
+.login{
+    width: 280px;
+    height: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: brown;
+    border-radius: 3px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.month{
+    width: 190px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 70px;
+    font-size: 20px;
+}
+.month2{
+    background-color: #fff;
+    width: 310px;
+    padding: 10px 10px;
+}
+.week{
+    padding: 3px 0px;
+}
+.ww{
+    font-weight: bold;
+    width: 20px;
+    height: 15px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.invis{
+    width: 20px;
+    height: 15px;
+    padding: 10px 10px;
+    background-color: rgb(223, 217, 217);
+    opacity: .5;
+    cursor: pointer;
+    text-align: center;
+}
+.vis{
+    width: 20px;
+    height: 15px;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: lightgray;
+    text-align: center;
+}
+.Flexbox{
+    width: fit-content;
+    padding: 20px 20px;
+    background-image: linear-gradient(90deg,rgb(61, 56, 56),white,rgb(61, 56, 56));
+    justify-content: center;
+}
+.flex1{
+    width: 800px;
+    padding: 10px 20px;
+    background-color:  rgb(204, 204, 76);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex2{
+    width: 800px;
+    padding: 10px 20px;
+    background-color: rgb(204, 204, 76);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.flex3{
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border: 1px solid black;
+    align-self: center;
+}
+.space{
+    width: 10px;
+    background-color: transparent;
+}
+
+.banner-area h2 {
+    font-family: poppins;
+    font-size: 85px;
+}
+.banner-area {
+    width: 1750px;
+    height: 100vh;
+    background: url(grocer.png); 
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 5vw;
+    color: #00B0FF;
+    padding: 20px 20px;
+    border: 5px solid rgb(64, 145, 145);
+    border-radius: 20px;
+    margin: 0 auto; 
+}
+
+pa{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(151, 75, 151);
+    padding: 20px 0px;
+}
+
+
+
+.btn{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #fff;
+    border:3px solid #00B0FF;
+    border-radius: 20px;
+    transition: 0.6s ease;
+    animation: animate 2s 1;
+    font-size: 15px;
+    font-weight: 900;
+    width: fit-content;
+    background-image: linear-gradient(50deg,orange,brown);
+    
+}
+@keyframes animate {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+h2{
+    animation: animate 2s 1;
+}
+.less{
+    opacity: .5;
+}
+
+.banner-area h2 {
+font-size: 28px;
+}
+
+
+  .footer {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    color: #fefefe;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer .heading {
+    color: #fefefe;
+    max-width: 1010px;
+    width: 90%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .footer .content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+  }
+  
+  .footer .content p {
+    margin-bottom: 1.3rem;
+  }
+  
+  .footer .content a {
+    text-decoration: none;
+    color: #fefefe;
+  }
+  
+  .footer .content a:hover {
+    border-bottom: 1px solid #971717;
+  }
+  
+  .footer .content h4 {
+    margin-bottom: 1.3rem;
+    font-size: 19px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  footer hr {
+    margin: 2rem 0;
+  }
+  
+  @media (max-width: 767px) {
+    .footer .content {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+  
+    .footer {
+      position: unset;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .footer .content,
+    .footer {
+      font-size: 14px;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .footer {
+      position: unset;
+    }
+  }
